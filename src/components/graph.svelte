@@ -97,7 +97,7 @@
 			<a href="https://www.hvakosterstrommen.no"> Hva koster strømmen.no</a>
 		</p>
 		<p class="flex-item">
-			<a href="\om">FAQ</a>
+			<a href="\om"><i>Super viktig</i> info!</a>
 		</p>
 	</div>
 </div>
@@ -115,7 +115,8 @@
 	}
 
 	.info {
-		font-size: 0.7rem;
+		font-size: 12px;
+		color: #333333;
 		position: fixed;
 		width: 100%;
 		bottom: 0px;
@@ -127,7 +128,7 @@
 	.flex-line::after {
 		content: '';
 		padding-left: 1rem;
-		border-right: 2px solid black;
+		border-right: 2px solid #333333;
 		align-self: stretch;
 	}
 </style>
